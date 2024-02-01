@@ -1,0 +1,9 @@
+### Firebase Realtime Database Structure
+
+| Table Name      | Fields                                     |
+|-----------------|--------------------------------------------|
+| users           | userId (String), displayName (String), email (String), photoUrl (String), onlineStatus (Boolean), lastSeen (Number) |
+| messages        | messageId (String), senderId (String), receiverId (String), messageText (String), timestamp (Number) |
+| userPresence    | userId (String), onlineStatus (Boolean), lastSeen (Number) |
+| signupRequests  | requestId (String), email (String), password (String), status (String) |
+| loginHistory    | userId (String), timestamp (Number) |

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646473732253",
+    "project_id": "fir-chat-b7bad",
+    "storage_bucket": "fir-chat-b7bad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646473732253:android:86996d101ee3f438c04474",
+        "android_client_info": {
+          "package_name": "com.example.firebasechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8g0II09c59fVxytF3JiiTfGKQSTZycc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

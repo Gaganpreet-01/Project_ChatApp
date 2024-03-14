@@ -7,14 +7,14 @@ plugins {
 
 
 android {
-    namespace = "com.example.firebasechatapp"
+    namespace = "com.message.firebasechatapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.firebasechatapp"
+        applicationId = "com.message.firebasechatapp"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -96,8 +96,6 @@ dependencies {
     //glide libraries
     implementation("com.github.bumptech.glide:glide:4.9.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.9.0")
-
-
-
+    implementation ("com.google.firebase:firebase-messaging:23.4.1")
 
 }

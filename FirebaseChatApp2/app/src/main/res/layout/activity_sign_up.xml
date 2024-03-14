@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     android:gravity="center"
-    android:orientation="vertical"
-    android:background="@color/colorBackground">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/label_sign_up"
-        android:textStyle="bold"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="10dp"
+        android:text="@string/label_sign_up"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,9 +29,9 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
-        android:inputType="text"
         android:background="@color/colorTextBackground"
         android:hint="@string/enter_name"
+        android:inputType="text"
         android:padding="12dp"
         android:textColor="@color/colorText" />
 
@@ -41,10 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
-        android:inputType="textEmailAddress"
         android:layout_marginEnd="15dp"
         android:background="@color/colorTextBackground"
         android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
         android:padding="12dp"
         android:textColor="@color/colorText" />
 
@@ -54,10 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
-        android:inputType="textPassword"
         android:layout_marginEnd="15dp"
         android:background="@color/colorTextBackground"
         android:hint="@string/enter_password"
+        android:inputType="textPassword"
         android:padding="12dp"
         android:textColor="@color/colorText" />
 
@@ -66,11 +66,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:inputType="textPassword"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
         android:background="@color/colorTextBackground"
         android:hint="@string/enter_confirm_password"
+        android:inputType="textPassword"
         android:padding="12dp"
         android:textColor="@color/colorText" />
 
@@ -78,10 +78,10 @@
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
         android:layout_margin="15dp"
-        android:textColor="@color/colorAccent"
-        android:text="@string/btn_sign_up"/>
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_sign_up"
+        android:textColor="@color/colorAccent" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -90,7 +90,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:background="@color/colorDarkGray"
-        android:textColor="@color/colorAccent"
-        android:text="@string/btn_login"/>
+        android:text="@string/btn_login"
+        android:textColor="@color/colorAccent" />
 
 </LinearLayout>

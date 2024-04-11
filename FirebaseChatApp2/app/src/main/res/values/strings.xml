@@ -12,4 +12,5 @@
     <string name="label_profile">Profile</string>
     <string name="enter_password">Enter Password</string>
     <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="send_button_description">Send Message</string>
 </resources>

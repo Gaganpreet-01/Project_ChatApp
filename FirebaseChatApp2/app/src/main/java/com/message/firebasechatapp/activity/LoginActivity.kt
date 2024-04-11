@@ -7,9 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.message.firebasechatapp.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.message.firebasechatapp.R
 
 class LoginActivity : AppCompatActivity() {
     private var auth: FirebaseAuth? = null

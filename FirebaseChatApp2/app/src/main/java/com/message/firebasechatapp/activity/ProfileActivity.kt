@@ -1,7 +1,7 @@
 package com.message.firebasechatapp.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.message.firebasechatapp.R
 
 class ProfileActivity : AppCompatActivity() {
